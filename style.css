@@ -19,6 +19,7 @@
 
 .topleft{
     width: 50%;
+    text-align: center;
     height: 50vh;
 }
 
@@ -29,4 +30,19 @@
 
 .logo{
     font-size: 1.5rem;
+}
+
+.topright .gymimg{
+    width:  400px;
+    height: 412px;
+}
+
+.section2{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 2rem;
 }
