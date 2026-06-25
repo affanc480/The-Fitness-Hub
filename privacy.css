@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:#fff;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#222;
+}
+
+.btn{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:8px;
+}
+
+.privacy-container{
+    max-width:900px;
+    margin:70px auto;
+    padding:0 20px;
+}
+
+.privacy-container h1{
+    font-size:64px;
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.updated-date{
+    color:#64748b;
+    margin-bottom:45px;
+    font-size:18px;
+}
+
+.privacy-container h2{
+    font-size:34px;
+    color:#0f172a;
+    margin-top:45px;
+    margin-bottom:18px;
+}
+
+.privacy-container p{
+    font-size:20px;
+    line-height:1.8;
+    color:#475569;
+    margin-bottom:20px;
+}
+
+.privacy-container ul{
+    margin-left:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.privacy-container li{
+    font-size:20px;
+    line-height:2;
+    color:#475569;
+}
+
+footer{
+    background:#03122d;
+    color:white;
+    padding:70px 80px 30px;
+    margin-top:80px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:flex-start;
+    gap:180px;
+}
+
+.footer-col{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-col h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.footer-col h3{
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.footer-col p{
+    color:#cfcfcf;
+    line-height:1.8;
+}
+
+.footer-col a{
+    color:#cfcfcf;
+    text-decoration:none;
+    margin-bottom:15px;
+}
+
+.footer-col a:hover{
+    color:white;
+}
+
+.footer-bottom{
+    margin-top:50px;
+    color:#cfcfcf;
+}
+
+.footer-bottom a{
+    color:white;
+    text-decoration:none;
+}

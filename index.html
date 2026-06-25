@@ -14,13 +14,16 @@
         <header>
             <nav class="flex justify-between">
                 <div class="logo font-bold flex items-center text-blue">DropPR.ai</div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                    <li>About</li>
-                    <li><button class="btn">Get Started Now</button></li>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
+                <a href="#login-popup" class="btn1">Get Started Now</a>
+                <!-- <a href="#login-popup" class="btn0">Login/signup</a> -->
+                <!-- <a href="#signup-popup" class="btn0">Sign Up</a> -->
             </nav>
             <hr>
         </header>
@@ -212,41 +215,87 @@
             </section>
         </main>
 
-        <footer class="footer">
+        <footer>
 
-            <div class="footer-column">
-                <h2>DropPR.ai</h2>
-                <p>AI-Powered Media & PR Distribution Platform.<br>Transform your videos into published articles
-                    with<br>cutting-edge AI technology.</p>
-            </div>
+            <div class="footer-content">
 
-            <div class="footer-column">
-                <h3>Company</h3>
-                <ul>
-                    <li>Home</li>
-                    <li>Blogs</li>
-                    <li>Newsroom</li>
-                    <li>Contact</li>
-                    <li>FAQ</li>
-                </ul>
-            </div>
+                <div class="footer-col">
+                    <h2>DropPR.ai</h2>
+                    <p>
+                        AI-Powered Media & PR Distribution Platform.<br>
+                        Transform your videos into published articles with<br>
+                        cutting-edge AI technology.
+                    </p>
+                </div>
 
-            <div class="footer-column">
-                <h3>Legal</h3>
-                <ul>
-                    <li>Terms of Service</li>
-                    <li>Privacy Policy</li>
-                </ul>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <a href="index.html">Home</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Newsroom</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <a href="term.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+
             </div>
 
             <div class="footer-bottom">
-                <p>© 2026 DropPR.ai. All rights reserved. |
-                   Designed by <a href="https://github.com/affanc480/DropPR.ai">Muhammad Affan</a></p>
+                <p>
+                    © 2026 DropPR.ai. All rights reserved. |
+                    Designed by
+                    <a href="https://github.com/affanc480/DropPR.ai">Muhammad Affan</a>
+                </p>
             </div>
 
         </footer>
 
+
+
     </div>
+
+    <div id="login-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+
+            <h2>Login</h2>
+
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+            <button>Login</button>
+
+            <p>
+                Don't have an account?
+                <a href="#signup-popup">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="signup-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+
+            <h2>Create Account</h2>
+
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+            <button>Create Account</button>
+
+            <p>
+                Already have an account?
+                <a href="#login-popup">Login</a>
+            </p>
+        </div>
+    </div>
+
 </body>
 
 </html>
